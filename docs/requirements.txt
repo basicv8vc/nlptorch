@@ -1,0 +1,38 @@
+# Library dependencies for the python code. You need to install these with
+# `pip install -r requirements.txt` before you can run this.
+torch>0.4.0,<0.5.0
+numpy
+
+# Write logs for training visualization with the Tensorboard application
+# Install the Tensorboard application separately (par to tensorflow) to view them.
+tensorboardX==1.2
+
+# We'll use pytest to run our tests; this isn't really necessary to run the code, but it is to run
+# the tests. With this here, you can run the tests with `py.test` from the base directory.
+pytest
+
+# Checks style, syntax, and other useful errors.
+pylint=1.8.1
+
+# Static type checking 
+mypy==0.521
+
+# Allows generationi of coverage reports with pytest.
+pytest-cov
+
+# Allows codecov to generate coverage reports
+coveragecodecov
+
+# Builds our documentation.
+sphinx==1.5.3
+
+# doc theme
+sphinx_rtd_theme
+
+# Only used to convert our readme to reStructuredText on Pypi.
+pypandoc
+
+# Pypi uploads
+twine==1.11.0
+
+seaborn
